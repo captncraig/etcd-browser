@@ -24,3 +24,10 @@
     sudo docker build -t etcd-browser .
 	sudo docker run --rm --name etcd-browser -p 8000 -t -i etcd-browser
 	
+## To install as a Chrome extension
+
+ * In chrome go to settings > extensions.
+ * "Load Unpacked Extensions"
+ * Select your working directory
+
+	
