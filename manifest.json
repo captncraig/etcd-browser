@@ -1,0 +1,14 @@
+{
+  "name": "Etcd Browser",
+  "description": "Browse an etcd server and update keys from your browser.",
+  "version": "0.1",
+  "app": {
+    "launch":{
+            "local_path":"index.html"
+    }
+  },
+  "permissions":["cookies", "storage", "http://*/*", "https://*/*"],
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+  "offline_enabled":true
+}
